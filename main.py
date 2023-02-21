@@ -1,3 +1,5 @@
+perement = 98484
+
 
 a = int(input('input a\n'))
 
