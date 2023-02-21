@@ -30,3 +30,9 @@ while True:
     elif command == 4:
         print("GOOD BYE")
         break
+
+
+print("hello world")
+
+print("hello world")
+
