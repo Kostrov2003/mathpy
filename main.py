@@ -11,7 +11,8 @@ c = 0
 while True:
     print("1) a + b")
     print("2) a - b")
-    print("3) exit")
+    print("3) a / b")
+    print("4) exit")
 
     command = int(input("input command(number)\n"))
 
@@ -21,7 +22,11 @@ while True:
     elif command == 2:
         c = a - b
         print(c)
+        
     elif command == 3:
+    	c = a / b
+    	print(c)
+    
+    elif command == 4:
         print("GOOD BYE")
         break
-
